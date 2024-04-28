@@ -10,7 +10,7 @@ int main(){
     printf("Please type circles radius:");
     scanf("%f", &r);
     area = pi * (r*r); // Calculate and write area to "area" variable
-    circum = (2 * pi) * r; // calculate and write circumference to "circum" variable
+    circum = (2 * pi) * r; // Calculate and write circumference to "circum" variable
     printf("Your circles circum is: %f", circum);
     printf("\nYour circles area is: %f\n", area);
 
