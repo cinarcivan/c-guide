@@ -18,7 +18,7 @@ int main()
     result += remainder / 10; // Divide by 10 for tens digit
     remainder = number % 10;
 
-    result += remainder / 1;
+    result += remainder / 1; // Divide by 1 for units digit and add to "result"
 
     printf("Sum of 4 digits: %d\n", result);
 
